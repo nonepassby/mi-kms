@@ -1,0 +1,27 @@
+# Name of the image and version
+name="kms-0.1.1112"
+
+# Build image to use for base of the image.  This image must
+# already exist in the ZFS hierarchy.
+base="minimal-64-19.3.0"
+
+# Organization name (implanted in motd and product)
+organization="Joyent"
+
+# Brand name (implanted in motd and product)
+brand="Instance"
+
+# Description of the image
+description="vlmcsd 1112 based on minimal-64 19.3.0"
+
+# Homepage specific to the image
+homepage="https://images.smartos.club/images/smartos/kms"
+
+# Metadata users to be created (not real users created)
+users=""
+
+# Role of image (database, loadbalancer, development, hadoop, other, os)
+role="development"
+
+# Minimum amount of ram needed
+minram=""

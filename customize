@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+#
+# Put customizations to your image in this file.
+
+PATH=/opt/local/gnu/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin
+VLMCSD_VERSION='1112'
+
+# Exit if any commands fail
+set -o errexit
+
+# Configuring image specific packages
+echo "* Configuring image specific packages.";
+mv /opt/vlmcsd/S99vlmcsd /etc/rc3.d/S99vlmcsd
+chown root:sys /etc/rc3.d/S99vlmcsd
+chmod +x /etc/rc3.d/S99vlmcsd
+
+
+# Clean up
+echo "* Cleaning up."
+rm -rf /root/*
+
+# Prepare image for provisioning
+sm-prepare-image -y
