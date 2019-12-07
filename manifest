@@ -25,3 +25,6 @@ role="development"
 
 # Minimum amount of ram needed
 minram=""
+
+# new image uuid 
+manifest_uuid="1f690f96-18fa-11ea-99fc-2395008dfc02"
