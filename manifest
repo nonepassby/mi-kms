@@ -1,5 +1,5 @@
 # Name of the image and version
-name="kms-0.1.1112"
+name="kms-0.1.0"
 
 # Build image to use for base of the image.  This image must
 # already exist in the ZFS hierarchy.
@@ -28,3 +28,5 @@ minram=""
 
 # new image uuid 
 manifest_uuid="1f690f96-18fa-11ea-99fc-2395008dfc02"
+
+VLMCSD_VERSION="1112"

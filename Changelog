@@ -1,3 +1,4 @@
-kms-0.1.1112
+kms-0.1.0
 * Base image is minimal-64-19.3.0 (2019Q3)
 * Initial release
+* vlmcsd 1112

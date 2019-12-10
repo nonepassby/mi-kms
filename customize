@@ -3,7 +3,6 @@
 # Put customizations to your image in this file.
 
 PATH=/opt/local/gnu/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin
-VLMCSD_VERSION='1112'
 
 # Exit if any commands fail
 set -o errexit
