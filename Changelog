@@ -1,4 +1,10 @@
+kms-0.3.0
+* Base image change to minimal-64-lts-19.4.0 (2019Q4)
+
+kms-0.2.0
+* install as SMF application/vlmcsd
+
 kms-0.1.0
 * Base image is minimal-64-19.3.0 (2019Q3)
 * Initial release
-* vlmcsd 1112
+* vlmcsd 1112 (https://github.com/Wind4/vlmcsd/releases/download/svn1112/binaries.tar.gz)

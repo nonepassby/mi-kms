@@ -2,4 +2,4 @@
 
 # Start vlmcsd
 log "starting vlmcsd"
-/opt/vlmcsd/vlmcsd-Solaris-x64
+/usr/sbin/svcadm enable vlmcsd

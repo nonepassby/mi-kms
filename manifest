@@ -1,9 +1,9 @@
 # Name of the image and version
-name="kms-0.1.0"
+name="kms-0.3.0"
 
 # Build image to use for base of the image.  This image must
 # already exist in the ZFS hierarchy.
-base="minimal-64-19.3.0"
+base="minimal-64-lts-19.4.0"
 
 # Organization name (implanted in motd and product)
 organization="Joyent"
@@ -12,7 +12,7 @@ organization="Joyent"
 brand="Instance"
 
 # Description of the image
-description="vlmcsd 1112 based on minimal-64 19.3.0"
+description="vlmcsd 1112 based on minimal-64-lts 19.4.0"
 
 # Homepage specific to the image
 homepage="https://images.smartos.club/images/smartos/kms"
@@ -27,6 +27,6 @@ role="development"
 minram=""
 
 # new image uuid 
-manifest_uuid="1f690f96-18fa-11ea-99fc-2395008dfc02"
+manifest_uuid="9e77e148-20ae-11ea-9b5a-93f9e1e7038c"
 
 VLMCSD_VERSION="1112"

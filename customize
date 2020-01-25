@@ -9,9 +9,8 @@ set -o errexit
 
 # Configuring image specific packages
 echo "* Configuring image specific packages.";
-mv /opt/vlmcsd/S99vlmcsd /etc/rc3.d/S99vlmcsd
-chown root:sys /etc/rc3.d/S99vlmcsd
-chmod +x /etc/rc3.d/S99vlmcsd
+chmod +x /opt/vlmcsd/vlmcsd-Solaris-x64
+svccfg import /root/vlmcsd.xml
 
 
 # Clean up
