@@ -1,12 +1,12 @@
 # Name of the image and version
-name="kms-0.3.0"
+name="kms-minimal-1112"
 
 # Build image to use for base of the image.  This image must
 # already exist in the ZFS hierarchy.
 base="minimal-64-lts-19.4.0"
 
 # Organization name (implanted in motd and product)
-organization="Joyent"
+organization="Itime"
 
 # Brand name (implanted in motd and product)
 brand="Instance"
@@ -27,6 +27,4 @@ role="development"
 minram=""
 
 # new image uuid 
-manifest_uuid="9e77e148-20ae-11ea-9b5a-93f9e1e7038c"
-
-VLMCSD_VERSION="1112"
+manifest_uuid="72299f20-71d3-11ea-b6f8-0789bcde80eb"

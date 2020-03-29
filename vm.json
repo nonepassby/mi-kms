@@ -1,0 +1,23 @@
+{
+  "brand": "joyent",
+  "image_uuid": "72299f20-71d3-11ea-b6f8-0789bcde80eb",
+  "autoboot": true,
+  "alias": "kms",
+  "hostname": "kms",
+  "dns_domain": "kms",
+  "resolvers": [
+    "8.8.8.8",
+    "8.8.4.4"
+  ],
+  "max_physical_memory": 64,
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "ips": ["dhcp"],
+      "gateway": "192.168.1.1",
+      "primary": true
+    }
+  ],
+  "customer_metadata": {
+  }
+}
